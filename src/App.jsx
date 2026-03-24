@@ -28,6 +28,11 @@ import img23 from "../public/img23.jpg";
 import img24 from "../public/img24.jpg";
 import img25 from "../public/img25.jpg";
 import img26 from "../public/img26.jpg";
+import teclado from "../public/teclado.png";
+import notFound from "../public/notFound.png";
+import computador from "../public/computador.png";
+import codigo2 from "../public/codigo2.png";
+import codigo from "../public/codigo.png";
 
 //inserindo os dados
 const card = [
@@ -242,7 +247,27 @@ const card = [
 function App() {
   return (
     <div className="container">
+
+      <div className="imagensRodape">
+     <img src={teclado} alt="Teclado" />
+     <img src={notFound} alt="NotFound" />
+     <img src={computador} alt="NotFound" />
+     <img src={codigo2} alt="NotFound" />
+     <img src={codigo} alt="NotFound" />
+      </div>
+
+      <div className="title">
+
+       <h1>React</h1>
+       <h1>+</h1>
+       <h1>Vite</h1> 
+       
+      </div>
+
+<div className="container2">
+
       <h1>Cards de estudos</h1>
+
       <p className="subtitulo">
         Cards de estudos para revisão de conteúdos sobre React, com explicações
         e exemplos práticos.
@@ -259,6 +284,8 @@ function App() {
           />
         ))}
       </div>
+</div>
+
     </div>
   );
 }

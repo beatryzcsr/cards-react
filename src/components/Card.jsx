@@ -18,7 +18,7 @@ const cores = [
     "#321bc7", "#321bc7",
 ];
 
-function Card({ id, titulo, explicacao, exemplo }) {
+function Card({ id, titulo, explicacao, exemplo, dica }) {
 
     const corDaBarra = cores[id % cores.length];
 
@@ -33,6 +33,8 @@ function Card({ id, titulo, explicacao, exemplo }) {
             <div className={styles.barra} style={{ backgroundColor: corDaBarra }}/>
 
             <div className={styles.exemplo}>Exemplo: <br />{exemplo}</div>
+
+            <div className={styles.dica}>Dica: {dica}</div>
 
         </div>
     );

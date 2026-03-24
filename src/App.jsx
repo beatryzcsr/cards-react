@@ -19,7 +19,7 @@ import img14 from "../public/img14.png";
 import img15 from "../public/img15.png";
 import img16 from "../public/img16.png";
 import img17 from "../public/img17.jpg";
-import img18 from "../public/img18.png";
+import img18 from "../public/img18.jpg";
 import img19 from "../public/img19.jpg";
 import img20 from "../public/img20.jpg";
 import img21 from "../public/img21.jpg";
@@ -27,10 +27,10 @@ import img22 from "../public/img22.jpg";
 import img23 from "../public/img23.jpg";
 import img24 from "../public/img24.jpg";
 import img25 from "../public/img25.jpg";
-import img26 from "../public/img26..jpg";
+import img26 from "../public/img26.jpg";
 
 //inserindo os dados
-const cursos = [
+const card = [
   {
     id: 1,
     titulo: "o que é React",
@@ -249,7 +249,7 @@ function App() {
       </p>
 
       <div className="card">
-        {cursos.map((card) => (
+        {card.map((card) => (
           <Card
             id={card.id}
             titulo={card.titulo}

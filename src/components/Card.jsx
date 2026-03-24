@@ -32,7 +32,7 @@ function Card({ id, titulo, explicacao, exemplo, dica }) {
 
             <div className={styles.barra} style={{ backgroundColor: corDaBarra }}/>
 
-            <div className={styles.exemplo}>Exemplo: <br />{exemplo}</div>
+            <div className={styles.exemplo}> <p>Exemplo:</p>  <img src={exemplo} /> </div>
 
             <div className={styles.dica}>Dica: {dica}</div>
 

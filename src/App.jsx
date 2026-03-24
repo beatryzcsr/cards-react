@@ -2,11 +2,27 @@ import Card from './components/Card';
 import './App.css'
 
 //importando as imagens de exemplo
-import exemplo1 from "../public/teste.png";
+import img1 from "../public/img1.png";
+import img2 from "../public/img1.png";
+import img3 from "../public/img1.png";
+import img4 from "../public/img1.png";
+import img5 from "../public/img1.png";
+import img6 from "../public/img1.png";
+import img7 from "../public/img1.png";
+import img8 from "../public/img1.png";
+import img9 from "../public/img1.png";
+import img10 from "../public/img1.png";
+import img11 from "../public/img1.png";
+import img12 from "../public/img1.png";
+import img13 from "../public/img1.png";
+import img14 from "../public/img1.png";
+import img15 from "../public/img1.png";
+
+
 
 //inserindo os dados
 const cursos= [
-  {id:1, titulo:"", explicacao:"", exemplo: exemplo1, dica: ''},
+  {id:1, titulo:"o que é React", explicacao:"React é uma biblioteca JavaScript de código aberto, desenvolvida pelo Facebook (Meta) em 2013, focada na criação de interfaces de usuário (UI) interativas e eficientes para aplicações web e móveis", exemplo: img1, dica: 'React não é framework, é biblioteca'},
   {id:2, titulo:'', explicacao:"", exemplo: '', dica: ''},
   {id:3, titulo:'', explicacao:"", exemplo: '', dica: ''},
   {id:4, titulo:'', explicacao:"", exemplo: '', dica: ''},

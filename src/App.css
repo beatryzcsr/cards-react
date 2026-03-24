@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --título: white;
+    --shadow:#261539;
+    --backgroud:#341E50;
+    --backgroudCard:#905ba3;
+    --cardTítulo:#e783b5;
+}
+
+
+
+body {
+    background-image: url('backgroudcerto.png');
+    background-repeat: no-repeat;      
+    background-size: cover;          
+    background-position: center;      
+    width: 100%;
+    margin: 0;
+}
+
+body::after {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    box-shadow: inset 0 0 20px 10px #261539;
+  border-radius: 10px;
+}
+
+
+
+
+
+.imagensRodape {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    justify-content: center;
+
+    img {
+    width: 220px;
+    height: 190px;
+    object-fit: cover;
+    }
+
+}
+
+.title {
+    color: var(--título);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem ;
+    font-family: "Bebas Neue", sans-serif; 
+    font-size: 2rem;
+}
+
+.container2 {
+       color: var(--título); 
+}
+
+
